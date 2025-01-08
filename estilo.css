@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #99c0f2c1;
+}
+
+#headTime {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+#logos {
+    margin-left: 300px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #5a9bf4;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 90px;
+    border-radius: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+#headTime:hover {
+    color: #0056b3;
+}
+
+#headTime::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 5px; 
+    background-color: #0056b3; 
+    border-radius: 50px; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-products{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 28px;
+    color: #004085;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0 20px;
+    line-height: 1.5;
+}
+
+input[type="text"] {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #5a9bf4;
+    box-shadow: 0px 0px 8px rgba(90, 155, 244, 0.6);
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.icon {
+    margin-top: 30px;
+}
+
+.icon img {
+    width: 200px;
+    height: auto;
+}
+
+.status {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-container-products {
+    display:block;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    width: 45%;
+}
+
+.column h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.column p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.timeline {
+    margin-top: 30px;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.timeline ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.products {
+    margin-top: 5px;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.products ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url('up-arrow-svgrepo-com.svg'); /* Ruta de tu imagen */
+    background-size: 96%; /* Ajusta el tamaño de la imagen */
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: none; /* Oculto por defecto */
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
