@@ -13,15 +13,22 @@
         </div>
         <h1 id="headTime">Time-Fast</h1>
         <div id="logos">
-            <a href="#"><img src="facebook-svgrepo-com.svg" alt="Facebook" width="75"></a>
-            <a href="#"><img src="instagram-1-svgrepo-com.svg" alt="Instagram" width="75"></a>
+            <a href="https://www.facebook.com/profile.php?id=61571531409412" target="_blank">
+                <img src="facebook-svgrepo-com.svg" alt="Facebook" width="75">
+            </a>
+            <a href="https://www.instagram.com/time_fast2025/" target="_blank">
+                <img src="instagram-1-svgrepo-com.svg" alt="Instagram" width="75">
+            </a>
         </div>
     </header>
 
     <div class="container">
         <h1>Verificar estatus de mi env&iacute;o</h1>
         <p>Para revisar el estatus de tu env&iacute;o necesitas el n&uacute;mero de gu&iacute;a. En este apartado podr&aacute;s consultar informaci&oacute;n como ubicaci&oacute;n, estado y dem&aacute;s elementos.</p>
-        <input type="text" id="trackingNumber" maxlength="6" placeholder="Escribe el n&uacute;mero de gu&iacute;a de tu paquete">
+        <div>
+            <input type="text" id="trackingNumber" maxlength="6" placeholder="Escribe el n&uacute;mero de gu&iacute;a de tu paquete">
+            <button id="borrarButton" style="background-color : red;">Borrar</button>
+        </div>
         <br>
         <span id="error-message" style="color: red; display: none;">El numero de gu&iacute;a contiene exactamente 6 dígitos.</span>
         <br>
@@ -34,6 +41,8 @@
     <button id="backToTop" class="back-to-top"></button>
 
     <div id="container-info" class="container-info"></div>
+    <div id="container-info2" class="container-info"></div>
+
     <script src="funcion.js"></script>
 </body>
 </html>
